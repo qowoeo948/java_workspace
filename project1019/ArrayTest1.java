@@ -24,8 +24,7 @@ class ArrayTest1{
 	//var arr = ["사과","바나나","딸기"];
 	String[] fruit = {"사과","바나나","딸기"};
 	System.out.print("과일의 갯수: "+fruit.length);
-	
-	
+
 	}
 
 }
