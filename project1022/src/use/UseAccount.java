@@ -37,5 +37,6 @@ class UseAccount{
 	//¿‹∞Ì»Æ¿Œ
 	System.out.println(acc.getBalance());
 
+	System.out.println(acc.balance);
 	}
 }
