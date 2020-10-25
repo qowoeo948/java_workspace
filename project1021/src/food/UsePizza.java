@@ -13,6 +13,7 @@ class UsePizza{
 	public static void main(String[] args){
 	Pizza p1 = new Pizza("피자헛");
 	Pizza p2 = new Pizza("도미노");
+	System.out.println(p1.brand);
 
 	UsePizza up = new UsePizza();
 	up.setSlice(5); //피자들과 상관없다.

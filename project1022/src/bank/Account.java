@@ -1,6 +1,6 @@
 package bank;
 
-/*고객의 계쫘를 정의한다: 업무가 신중해짐..예민한 데이터를 많이 다룸
+/*고객의 계좌를 정의한다: 업무가 신중해짐..예민한 데이터를 많이 다룸
 	패키지에 넣은 클래스를 public으로 공개 하지 않으면, 다른 어떠한 클래스도 이 클래스를 사용할 수 없음
 	이건 보안이 아니라, 그냥 의미 없는 짓이다.
 	클래스는 쓰라고 만든것 이기 떄문에 public으로 공개하되, 그 안의 내용들에 대해 보안처리 하면되는것이다.
@@ -26,7 +26,13 @@ public class Account{
 	return balance;
 	}
 
-	
+	public void setNum(String num){
+		this.num = num;
+	}
+	public String getNum(){
+	return num;
+	}
 
+	
 
 }

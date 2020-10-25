@@ -9,8 +9,8 @@ class UseDevice{
 
 	//이건 가능!
 	//결국 자식에 의해 인스턴스화 될 수 있다.
-	//AudioDevice ad = new Speaker();
-
+	AudioDevice ad = new Speaker();
+	ad.setVolume();
 
 	riding.Wing wing = new Speaker();
 	wing.fly(); //자식꺼 호출
